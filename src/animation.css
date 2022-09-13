@@ -1,0 +1,23 @@
+@keyframes roll-out {
+    0%{
+        transform: rotate(0deg) scale(100%);
+    }
+    
+    100%{
+        transform: rotate(5deg) scale(50%);
+    }
+}
+@keyframes roll-in {
+    0%{
+        transform: rotate(10deg) scale(50%);
+    }
+    75%{
+        transform: rotate(-10deg) scale(120%);
+    }
+    95%{
+        transform: rotate(-5deg) scale(120%);
+    }
+    100%{
+        transform: rotate(0deg) scale(100%);
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Naruto is Gay",
+      "author": "itachi",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magni et vel vitae officiis saepe inventore repudiandae, hic ipsa provident omnis. Dolores voluptate inventore tenetur asperiores facere quam. Vel, porro.",
+      "id": "1"
+    },
+    {
+      "title": "Batman solos the entire MCU",
+      "author": "Your mum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magni et vel vitae officiis saepe inventore repudiandae, hic ipsa provident omnis. Dolores voluptate inventore tenetur asperiores facere quam. Vel, porro.",
+      "id": "2"
+    },
+    {
+      "title": "Superman beats Goku",
+      "author": "Cryptonzera",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magni et vel vitae officiis saepe inventore repudiandae, hic ipsa provident omnis. Dolores voluptate inventore tenetur asperiores facere quam. Vel, porro.",
+      "id": "3"
+    },
+    {
+      "title": "Here We go!",
+      "author": "OJ",
+      "body": "Here we go!\nofficial, Confirmed.\n Manchester United have reached an agreement with china for the $50m transfer for Jackie Chan contract will be valid till he dies.",
+      "id": "RxT2agT"
+    }
+  ]
+}

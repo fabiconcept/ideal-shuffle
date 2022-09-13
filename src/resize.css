@@ -1,0 +1,267 @@
+@media screen and (max-width: 1140px) {
+    .trend-cards {
+        max-width: 98vw;
+        padding: 20px 0;
+        gap: 1rem;
+        margin: 1rem;
+        height: 15rem;
+        scroll-snap-type: x mandatory;
+  /* background-color: aqua; */
+    }
+
+    .body {
+        grid-template-columns: 1fr;
+        grid-template-areas: "right";
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .body .left {
+        display: none;
+    }
+
+    .navigate .right-part{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0 30px;
+        gap: 10rem;
+        align-items: center;
+    }
+
+    .search{
+        transition: .5s ease-in-out;
+        display: flex;
+        gap: 5px;
+        border-radius: 1rem;
+        padding: 0 20px;
+        overflow: hidden;
+        min-width: 12.5rem;
+        font-size: .95rem;
+        background-color: rgba(240, 248, 255, 1);
+        align-items: center;
+      }
+
+      .search:hover{
+        width: 10rem;
+      }
+      .search:focus{
+        width: 10rem;
+      }
+      .search:target{
+        width: 10rem;
+      }
+
+    .playing {
+        width: 90vw;
+        left: 50%;
+        margin: 0;
+        justify-content: center;
+        transform: translateX(-50%);
+    }
+
+
+    .playing>span:last-child {
+        display: none;
+    }
+
+    .trendcard {
+        position: relative;
+        min-width: 38rem;
+        max-width: 38rem;
+    }
+
+    .trendcard span:first-child .buts{
+        margin: 0;
+    }
+
+    .trendcard span:first-child .title{
+        min-width: 10em;
+    }
+
+    .trendcard span:last-child{
+        display: flex;
+        border-radius: 1rem;
+        overflow: hidden;
+        margin: 5px 0;
+        right: 0;
+        bottom: 0;
+        min-width: 10rem;
+        height: 12.88rem;
+        font-size: .85rem;
+        gap: 5px;
+        top: -10%;
+        position: absolute;
+    }
+    .trendcard span:last-child img{
+        min-width: 100%;
+    }
+
+    .main {
+        position: relative;
+        min-width: 96.25vw;
+        max-width: 98.5vw;
+        overflow: visible;
+    }
+
+    table .time {
+        display: none;
+    }
+
+    table .artist {
+        display: none;
+    }
+
+    table {
+        max-width: 95%;
+    }
+
+    .playing{
+        font-size: small;
+        overflow: hidden;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 10px 12px;
+        height: fit-content;
+        justify-content: space-between;
+        align-items: center;
+        background-image: linear-gradient(to right, rgba(20, 20, 20, 0.644), rgba(32, 32, 32, 0.642));
+        color: #fff;
+    }
+
+    .playing span:nth-child(1) .txt .artist{
+        font-size: .75rem;
+        opacity: .7;
+        width: 6rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .playing span:nth-child(1) .txt .title{
+        width: 6rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .playing > span:first-child{
+        align-items: center;
+        font-size: small;
+    }
+    
+    .playing > span:first-child .img{
+        height: 50px;
+        max-width: 50px;
+    }
+
+    .playing span:nth-child(2) section:nth-child(2) img {
+        filter: invert(1);
+        width: 1.11rem;
+        cursor: pointer;
+    }
+
+    .playing span:nth-child(2) section:nth-child(2) span:nth-child(3) img {
+        width: 1.25;
+        filter: invert(1);
+        cursor: pointer;
+        transition: .25s ease-in-out;
+        transform: rotate(0) scale(100%);
+    }
+
+    .playing span:nth-child(2) section:nth-child(2) .icons {
+        display: flex;
+        align-items: center;
+        gap: 1.55rem;
+    }
+    .playing span:nth-child(2) section:nth-child(2) .icons span:first-child {
+        display: none;
+    }
+    .playing span:nth-child(2) section:nth-child(2) .icons span:last-child {
+        display: none;
+    }
+    .playing span:nth-child(2) section:nth-child(1){
+        display: none;
+    }
+    .playing span:nth-child(2) section:nth-child(3){
+        display: none;
+    }
+
+    .playing span:nth-child(2) section:nth-child(2){
+        position: relative;
+    }
+
+    .playing span:nth-child(2) section:nth-child(2) .seek-line {
+        width: 100vw;
+        height: 5px;
+        background-color: #3a3a3a77;
+        position: absolute;
+        align-items: center;
+        top: 105%;
+        opacity: .8;
+        left: -60vw;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+    .playing span:nth-child(2) section:nth-child(2) .seek-line span:last-child {
+        display: none;
+    }
+
+    .trendcard{
+        display: grid;
+        min-width: 20rem;
+        max-width: 20rem;        
+        scroll-snap-align: start;
+        max-height: 12rem;
+        border-radius: 1.25rem;
+        overflow: visible;
+        grid-template-columns: 1fr 1fr;
+    }
+    .trendcard span:first-child{
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        color: #fff;
+    }
+    
+    .trendcard span:first-child .title {
+        font-size: 1.25rem;
+        line-height: 1.55rem;
+        margin: .5rem 0;
+        font-weight: 450;
+    }
+    .trendcard span:last-child img{
+        max-width: 100%;
+        margin-right: -2rem;
+    }
+    .navigate .right-part .nav-arrows{
+        display: none;
+    }
+    .lis{
+        min-height: 65vh;
+    }
+
+    .mb{
+        display: block;
+    }
+    .card-tags .tag a{
+        width: 7.8rem;
+        min-width: 9.8rem;
+        max-width: 9.8rem;
+        font-size: 1.25rem;
+        height: 9.8rem;
+      }
+      
+      .card-tags .tagImg a{
+        width: 7.8rem;
+        min-width: 9.8rem;
+        max-width: 9.8rem;
+        font-size: 1.25rem;
+        height: 9.8rem;
+      }
+      .card-tags{
+        display: flex;
+        gap: 1rem;
+        padding: 10px 0 0 1rem;
+        flex-wrap: wrap;
+      }
+}
