@@ -1,5 +1,6 @@
 # ideal-shuffle
 
-te design for i-shuffle isn't mine, it'was a UI/UX designers post on instagram.
+the design for i-shuffle isn't mine, it'was a UI/UX designers post on instagram.
 
-## smiles
+## View I-shuffle demo live
+https://dapper-puffpuff-ea1e3b.netlify.app/
